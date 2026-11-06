@@ -7,3 +7,7 @@ backend/data/
 node_modules/
 frontend/dist/
 .DS_Store
+
+chroma_db/
+*.sqlite
+*.sqlite3
