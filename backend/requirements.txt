@@ -1,0 +1,15 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.12
+python-dotenv>=1.0
+numpy>=1.26
+
+# RAG stack
+langchain-core>=0.3
+chromadb>=0.6
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+
+# LLM providers (install the one you use; both are fine)
+langchain-google-genai>=2.0
+langchain-openai>=0.3
